@@ -1,0 +1,135 @@
+/* body,
+html {
+  padding: 0;
+  margin: 0;
+  font-family: 'Open Sans', sans-serif;
+  background-color: #f9f9f9;
+} */
+
+/* .container {
+  max-width: 960px;
+  margin: 20px auto;
+} */
+
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,300');
+
+.input-card select {
+  width: 100%;
+  padding: 8px;
+  font-size: 14px;
+  margin-top: 10px;
+}
+
+.seats-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.seat-row {
+  margin: 10px 0;
+  display: flex;
+  align-items: center;
+}
+
+.row-label {
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+.row-name {
+  width: 40px;
+  color: #918e8e;
+}
+
+.seat {
+  display: inline-block;
+  width: 25px;
+  height: 25px;
+  margin: 7px;
+  text-align: center;
+  line-height: 25px;
+  border: 1px solid #1ea83c;
+  color: #1ea83c;
+  background-color: #fff;
+  cursor: pointer;
+  border-radius: 2px;
+  font-size: 13px;
+}
+
+.seat.selected, .selected_box {
+  background-color: green;
+  color: white;
+}
+
+
+
+.seat.available:hover {
+  background-color: #1ea83c;
+  color: white;
+}
+.seat-space {
+  display: inline-block;
+  width: 75px; 
+}
+
+.bootom_navbar {
+  width: 100%;
+  height: 55px;
+  background-color: #fff;
+  box-shadow: 0 0 10px black;
+}
+.seat_boxes {
+  width: 15px;
+  height: 15px;
+  border: 1px solid #1ea83c;
+  margin-right: 5px;
+  border-radius: 2px;
+}
+.seat.blocked, .sold_box {
+  background-color: #ddd;
+  color: #aaa;
+  border: none;
+  cursor: not-allowed;
+}
+
+.seat-option {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  width: 40px; 
+  height: 40px;
+  border-radius: 50%; 
+  transition: all 0.5s ease-in-out;
+  padding: 0 20px;
+}
+
+.seat-option:hover {
+  width: 40px; 
+  height: 40px;
+  border-radius: 50%; 
+  background-color: red;
+  color: white;
+  transition: all 0.5s ease-in-out;
+}
+
+.active-item {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background-color: red; 
+  color: white;
+}
+
+
+.movie_screen_cont {
+  width: 200px;
+  height: 10px;
+  background-color: skyblue;
+}
+
+.terms_conditions_text {
+  font-size: 14px;
+}

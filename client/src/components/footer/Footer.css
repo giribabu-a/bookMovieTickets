@@ -1,0 +1,41 @@
+.footer_container {
+    width: 100%;
+    height: auto;
+    background-color: #121212;
+    color: rgb(114, 113, 112);
+}
+.footer_logo_container {
+    width: 100%;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.footer_logo {
+    width: 200px;
+}
+.footer_line {
+    flex: 1 1 0%;
+    height: 1px;
+    background-color: #999595;
+}
+.social_media_link {
+    width: 35px;
+    height: 35px;
+    background-color: #716f6f;
+    border-radius: 50%;
+    color: #000;
+    margin: 0 5px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.social_media_link:hover {
+    background-color: white;
+    cursor: pointer;
+}
+.footer_bootom_text {
+    font-size: 14px;
+    text-align: center;
+}

@@ -1,0 +1,65 @@
+.header_container {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.header_logo_cont{
+    width: 250px;
+}
+.header_search_box {
+    width: 600px;
+}
+.header_search_box input {
+    border: 1px solid rgb(216, 212, 212);
+    outline: 0;
+    border-radius: 4px;
+    padding: 5px 15px;
+    font-size: 15px;
+}
+.header_signin_btn button {
+    border: 0;
+    outline: 0;
+    background-color: #20c997;
+    color: #fff;
+    padding: 2px 10px;
+    border-radius: 3px;
+    font-size: 15px;
+}
+.header_bars_icon button {
+    border: 0;
+    outline: 0;
+    background: transparent;
+    font-size: 22px;
+}
+.login_btn button {
+    border: 0;
+    outline: 0;
+    width: 150px;
+    background-color: #20c997;
+    color: #fff;
+    padding: 7px 0;
+    border-radius: 5px;
+}
+
+/* Registration Form */
+.asterik_sign {
+    color: red;
+}
+
+/* Locations */
+.locations_container {
+    display: flex;
+    flex-wrap: wrap;
+    row-gap: 20px;
+}
+.each_locations_cont {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 20px;
+    cursor: pointer;
+}
+.location_active {
+    background-color: red;
+}

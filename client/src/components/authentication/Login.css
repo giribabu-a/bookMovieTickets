@@ -1,0 +1,10 @@
+
+.login_btn button {
+    border: 0;
+    outline: 0;
+    width: 150px;
+    background-color: #20c997;
+    color: #fff;
+    padding: 7px 0;
+    border-radius: 5px;
+}

@@ -1,0 +1,7 @@
+.movie_cards {
+    border: 0;
+    background: transparent;
+}
+.movie_cards img {
+    border-radius: 5px;
+}

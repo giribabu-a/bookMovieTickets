@@ -1,0 +1,13 @@
+.registration_form {
+    width: 100%;
+    height: 100%;
+    box-shadow: 0 0 10px black;
+    padding: 20px 30px;
+}
+.registration_cont {
+    width: 100%; 
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

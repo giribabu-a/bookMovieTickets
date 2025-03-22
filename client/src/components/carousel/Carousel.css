@@ -1,0 +1,12 @@
+
+.carousel_cont {
+    width: 100%;
+    height: 340px;
+    background-color: rgb(229, 223, 223);
+    padding: 20px 0px;
+}
+.carousel_image {
+    border-radius: 5px;
+    width: 100%;
+    height: 300px;
+}
